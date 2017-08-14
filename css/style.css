@@ -373,6 +373,15 @@ border: none;
 	//bottom: 489px;
 }
 
+.overlay {
+background:transparent;
+position:relative;
+width:100%; /* your iframe width */
+height:750px; /* your iframe height */
+top:480px; /* your iframe height */
+margin-top:-750px; /* your iframe height */
+}
+
 .tit-sect{
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Roboto', 'sans-serif';
