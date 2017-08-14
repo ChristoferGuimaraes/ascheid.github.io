@@ -373,13 +373,21 @@ border: none;
 	//bottom: 489px;
 }
 
-
+.tit-sect{
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', 'sans-serif';
+	text-transform: uppercase;	
+    font-weight: 700;
+   text-shadow: 0px 0px 6px rgba(0, 0, 0, 2.5);
+}
  .Des .fa-users{
+    border: 2px solid;
+    border-radius: 50%; 	
 	//margin-left: -14px;
-	background: url(../images/cir.png) no-repeat;
+	//background: url(../images/cir.png) no-repeat;
 	padding: 26px;
-	font-size: 24px;
-	color: #fff;
+	font-size: 64px;
+	//color: #fff;
 	font-family: FontAwesome;
 	text-align: center;
 }
@@ -389,6 +397,14 @@ border: none;
 	margin-top: 250px;
 	text-align: center;
 	
+}
+.cic{
+    border: 2px solid;
+    border-radius: 50%;
+    width: 50%;
+}
+.centraliz{
+	padding-left: 35%;
 }
 .Fresh h4{
 	//margin-left: -15px;
@@ -405,11 +421,13 @@ border: none;
 	line-height: 23px;
 }
 .fa-eye {
+    border: 2px solid;
+    border-radius: 50%;	
 	margin-left: 2px;
-	background: url(../images/cir.png) no-repeat;
+	//background: url(../images/cir.png) no-repeat;
 	padding: 26px;
-	font-size: 24px;
-	color: #fff;
+	font-size: 64px;
+	//color: #fff;
 	font-family: FontAwesome;
 	text-align: center;
 }
@@ -423,12 +441,14 @@ border: none;
 	//margin-left: 20px;
 }
 .fa-heartbeat{
+	border: 2px solid;
+    border-radius: 50%;
 	//margin-left: 20px;
-	width:73px;
-	background: url(../images/cir.png) no-repeat;
+	//width:73px;
+	//background: url(../images/cir.png) no-repeat;
 	padding: 26px;
-	font-size: 24px;
-	color: #fff;
+	font-size: 64px;
+	//color: #fff;
 	font-family: FontAwesome;
 	text-align: center;
 }
@@ -1288,6 +1308,12 @@ textarea {
     background-color: #5cb85c;
     border-color: #5cb85c;
 }
+
+.enviar{ 
+	color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+ }
 .forma .cBtn .send:hover{
 	background: #376e37;
 }
